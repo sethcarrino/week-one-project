@@ -21,3 +21,102 @@ font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;
 
 */
+
+
+/* Main Element & Text Styles */
+
+*{
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  color: #131511;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 55px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* Header Styles */
+
+#site-header{
+  box-shadow: 2px 2px 2px #000000;
+  padding: 15px;
+}
+
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo img{
+  width: 35%;
+}
+
+.nav-item{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #2B2F26;
+}
+
+.nav-bar a:hover{
+  color: #CD5D67;
+
+}
+
+.nav-bar a:active{
+  color: #968772;
+}
+
+/* Body Styles */
+
+.wrapper{
+  background-color: #F2F1E8;
+}
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+}
+
+/* Gallery Styles */
+
+
+
+.product-button {
+  background-color: #968772;
+  position: relative;
+  bottom: 50px;
+  padding: 6px 6px;
+  color: #F2F1E8;
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
+
+
+
+/* Footer Styles */
+
+#site-footer{
+  background-color: #968772;
+  padding: 20px;
+  color: white;
+  font-style: italic;
+
+}
