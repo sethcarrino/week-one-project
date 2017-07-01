@@ -155,7 +155,7 @@ header{
   font-weight: lighter;
 }
 
-input:hover{
+.products > input:hover{
   background-color: #967343;
 }
 
@@ -317,6 +317,72 @@ td{
   padding-bottom: 40px;
   padding-top: 20px;
 }
+
+/* Newsletter Page Styles */
+
+.image-container{
+
+  max-width: 100%;
+  position: relative;
+  height: 800px;
+}
+
+
+
+.newsletter{
+
+   position: absolute;
+   left: 420px;
+   top: 50px;
+   z-index: 1000;
+   background-color: white;
+   padding: 30px;
+   text-align: center;
+}
+
+.newsletter > p{
+  padding: 5px;
+}
+
+.newsletter > input:hover{
+  background-color: #967343;
+}
+
+.newsletter > form{
+  padding-bottom: 20px;
+  width: 500px;
+  padding: 30px;
+  background: #FFFFFF;
+
+}
+
+form input[type="text"],
+form textarea,
+form select{
+
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Merriweather', serif;
+    height: 45px;
+}
+
+.submit-button{
+  background-color: #968772;
+  padding: 6px 6px;
+  color: #F2F1E8;
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
 
 /* Footer Styles */
 
