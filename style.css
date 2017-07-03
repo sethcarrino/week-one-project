@@ -345,11 +345,12 @@ td{
    position: absolute;
    left: 420px;
    top: 50px;
-   z-index: 1000;
+   z-index: 500;
    background-color: white;
    padding: 30px;
    text-align: center;
    margin-top: 80px;
+   
 }
 
 .newsletter > p{
