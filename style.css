@@ -334,8 +334,11 @@ td{
 .image-container{
 
   max-width: 100%;
-  position: relative;
-  height: 800px;
+  /*position: relative;
+  height: 800px;*/
+  /*display: flex;
+  flex-wrap: wrap;*/
+
 }
 
 
@@ -350,7 +353,7 @@ td{
    padding: 30px;
    text-align: center;
    margin-top: 80px;
-   
+
 }
 
 .newsletter > p{
