@@ -67,11 +67,14 @@ header{
   width: 100%;
   margin-bottom: 50px;
   background-color: white;
+  z-index: 1000;
 }
 
 main{
   padding-top: 50px;
 }
+
+
 
 .nav-bar{
   width: 98%;
@@ -346,6 +349,7 @@ td{
    background-color: white;
    padding: 30px;
    text-align: center;
+   margin-top: 80px;
 }
 
 .newsletter > p{
